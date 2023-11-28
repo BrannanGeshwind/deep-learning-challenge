@@ -5,13 +5,13 @@ Module 21 Challenge
 -----
 Added the Notebooks for the optimizations as well as the .h5 files. Credit to Nathan Humphreys Lucas for this line of code that was a correction to what I had written:
 
-  #Export our model to HDF5 file
-  #Documentation: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_hdf.html
-  results_df = pd.DataFrame({'Loss':[model_loss], 'Accuracy':[model_accuracy]})
-  results_df.head()
-  results_df.to_hdf(r'AlphabetSoupCharity.h5',\
-                    key = 'results_df',\
-                    mode='w')
+#Export our model to HDF5 file <br>
+#Documentation: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_hdf.html <br>
+results_df = pd.DataFrame({'Loss':[model_loss], 'Accuracy':[model_accuracy]}) <br>
+results_df.head() <br>
+results_df.to_hdf(r'AlphabetSoupCharity.h5',\ <br>
+                    key = 'results_df',\ <br>
+                    mode='w') <br>
 
 ## Updates:
 -----
